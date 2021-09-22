@@ -1,0 +1,25 @@
+{
+    "path_root": "/cephfs_ryan/Batch_2/Preprocessed_Data/Max_Crop_Size/",
+    "model": "unet",
+    "loss": "masked_mse",
+    "loss_name": "Loss function used: masked_mse = ",
+    "metrics": [
+        "masked_mse",
+        "r_squared",
+        "standard_error_of_estimate"
+    ],
+    "metric_names": [
+        "Metric function used: masked_mse = ",
+        "Metric function used: r_squared = ",
+        "Metric function used: standard_error_of_estimate = "
+    ],
+    "x_train": "sar_train_masked_normed",
+    "y_train": "smap_train",
+    "x_test": "sar_test_masked_normed",
+    "y_test": "smap_test",
+    "input_shape": "input_shape",
+    "batch_size": 8,
+    "epochs": 200,
+    "early_stopping_patience": 25,
+    "reduce_lr_patience": 10
+}

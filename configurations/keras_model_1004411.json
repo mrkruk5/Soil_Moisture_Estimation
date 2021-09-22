@@ -1,0 +1,28 @@
+{
+    "path_root": "/home/ryan/Downloads/Dataset/Preprocessed_Data_Fill_Value_Samples_Excluded/Window_32_Overlap_0/",
+    "model": "dense_flattened_model",
+    "L1_units": 1024,
+    "L2_units": 1024,
+    "L3_units": 1024,
+    "loss": "mse",
+    "loss_name": "Loss function used: mse = ",
+    "metrics": [
+        "mse",
+        "r_squared",
+        "standard_error_of_estimate"
+    ],
+    "metric_names": [
+        "Metric function used: mse = ",
+        "Metric function used: r_squared = ",
+        "Metric function used: standard_error_of_estimate = "
+    ],
+    "x_train": "sar_train_normed_flat",
+    "y_train": "smap_train_flat",
+    "x_test": "sar_test_normed_flat",
+    "y_test": "smap_test_flat",
+    "input_shape": "input_shape_flat",
+    "batch_size": 4,
+    "epochs": 600,
+    "early_stopping_patience": 550,
+    "reduce_lr_patience": 300
+}

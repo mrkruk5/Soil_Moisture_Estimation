@@ -1,0 +1,49 @@
+'<file_name>_abcdefg.json'
+
+a = path_root (whole dataset/fill value samples excluded)
+b = win_size
+c = overlap
+d = model
+e = loss
+f = parameters changes
+g = raw/normed (zero centered, unit variance)
+
+Path:
+0 = /home/ryan/Downloads/Dataset/Preprocessed_Data/
+1 = /home/ryan/Downloads/Dataset/Preprocessed_Data_Fill_Value_Samples_Excluded/
+2 = /cephfs_ryan/Batch_1/Preprocessed_Data/
+3 = /cephfs_ryan/Batch_1/Preprocessed_Data_Fill_Value_Samples_Excluded/
+4 = /cephfs_ryan/Batch_2/Preprocessed_Data/
+
+Window Size:
+0 = Window_32
+1 = Window_24
+2 = Window_48
+
+Overlap:
+0 = Overlap_0
+1 = Overlap_25
+2 = Overlap_50
+3 = Overlap_75
+
+Model:
+0 = base_model
+1 = base_model_with_normalization
+2 = deep_model
+3 = dense_model
+4 = dense_flattened_model
+5 = unet_like
+6 = unet_like_with_regularization
+7 = unet_mini
+8 = unet_mini_with_regularization
+
+Loss:
+0 = mae
+1 = masked_ae
+2 = masked_ae_sum
+3 = masked_mae
+4 = mse
+5 = masked_mse
+6 = masked_normed_mse
+7 = normed_mse
+8 = relative_L2_norm_squared

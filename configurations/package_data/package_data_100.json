@@ -1,0 +1,5 @@
+{
+    "path_root": "/home/ryan/Downloads/Dataset/",
+    "exclude_samples_with_fill_values": true,
+    "new_dir": "/home/ryan/Downloads/Dataset/Preprocessed_Data_Fill_Value_Samples_Excluded/Window_32_Overlap_0/"
+}

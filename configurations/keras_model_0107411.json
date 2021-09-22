@@ -1,0 +1,25 @@
+{
+    "path_root": "/home/ryan/Downloads/Dataset/Preprocessed_Data/Window_24_Overlap_0/",
+    "model": "unet_mini",
+    "loss": "mse",
+    "loss_name": "Loss function used: mse = ",
+    "metrics": [
+        "mse",
+        "r_squared",
+        "standard_error_of_estimate"
+    ],
+    "metric_names": [
+        "Metric function used: mse = ",
+        "Metric function used: r_squared = ",
+        "Metric function used: standard_error_of_estimate = "
+    ],
+    "x_train": "sar_train_masked_normed",
+    "y_train": "smap_train",
+    "x_test": "sar_test_masked_normed",
+    "y_test": "smap_test",
+    "input_shape": "input_shape",
+    "batch_size": 4,
+    "epochs": 100,
+    "early_stopping_patience": 25,
+    "reduce_lr_patience": 10
+}

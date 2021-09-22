@@ -1,0 +1,7 @@
+{
+    "path_root": "/home/ryan/Downloads/Dataset/",
+    "exclude_samples_with_fill_values": false,
+    "new_dir": "/home/ryan/Downloads/Dataset/Preprocessed_Data/Window_48_Overlap_50/",
+	"win_size": 48,
+	"overlap": 0.50
+}
